@@ -351,7 +351,6 @@ int run_whodata_scan() {
             mwarn(FIM_WARN_WHODATA_AUTOCONF);
         } else {
             mwarn(FIM_WARN_WHODATA_LOCALPOLICIES);
-            return 1;
         }
     }
     // Select the interesting fields
